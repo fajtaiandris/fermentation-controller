@@ -3,3 +3,7 @@
 # Fermentálás szabályzó
 
 bla bla bla
+
+## Tennivalók
+- [ ] Mappákba rakni a függőségeket és a forráskódot
+- [ ] CI

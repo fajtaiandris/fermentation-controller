@@ -136,13 +136,15 @@ void loop()
 }
 
 void stateStart(int stateNumber){
-    Serial.print("[STATE] " + stateNumber);
+    Serial.print("[STARTED] ");
+    Serial.println(stateNumber);
     state = stateNumber;
     updateStatusLED(state);
 }
 
 void stateEnd(int stateNumber){
-    Serial.println(" end");
+    Serial.print("[ENDED]   ");
+    Serial.println(stateNumber);
 }
 
 void state0(){
@@ -304,7 +306,7 @@ void refreshTemperature(){
    sensors.requestTemperatures();
    currentTemp = sensors.getTempCByIndex(0);
    DS3231_get(&lastTime);
-   Serial.print("[UPDATE] ");
+   Serial.print("[UPDATE]  ");
    Serial.print(lastTime.mday);
    Serial.print("/");
    Serial.print(lastTime.mon);

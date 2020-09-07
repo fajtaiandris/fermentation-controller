@@ -30,5 +30,8 @@ A nyílakon lévő számok a gombnyomások számáit jelölik.
 
 ## Tennivalók
 - [ ] Mappákba rakni a függőségeket és a forráskódot
+- [ ] Valami build rendszer
 - [ ] CI
 - [ ] EEPROM inicializáló program új alaplapokhoz
+- [ ] Relé kapcsolása
+- [ ] Kód kommentelése

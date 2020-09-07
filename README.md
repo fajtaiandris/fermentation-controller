@@ -7,3 +7,4 @@ bla bla bla
 ## Tennivalók
 - [ ] Mappákba rakni a függőségeket és a forráskódot
 - [ ] CI
+- [ ] EEPROM inicializáló program új alaplapokhoz

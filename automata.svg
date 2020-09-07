@@ -1,0 +1,98 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="800" height="600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="280.5" cy="177.5" rx="30" ry="30"/>
+	<text x="275.5" y="183.5" font-family="Times New Roman" font-size="20">0</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="201.5" cy="66.5" rx="30" ry="30"/>
+	<text x="196.5" y="72.5" font-family="Times New Roman" font-size="20">1</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="73.5" cy="236.5" rx="30" ry="30"/>
+	<text x="68.5" y="242.5" font-family="Times New Roman" font-size="20">2</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="130.5" cy="318.5" rx="30" ry="30"/>
+	<text x="125.5" y="324.5" font-family="Times New Roman" font-size="20">3</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="424.5" cy="47.5" rx="30" ry="30"/>
+	<text x="419.5" y="53.5" font-family="Times New Roman" font-size="20">4</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="697.5" cy="84.5" rx="30" ry="30"/>
+	<text x="692.5" y="90.5" font-family="Times New Roman" font-size="20">6</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="553.5" cy="137.5" rx="30" ry="30"/>
+	<text x="548.5" y="143.5" font-family="Times New Roman" font-size="20">5</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="561.5" cy="286.5" rx="30" ry="30"/>
+	<text x="556.5" y="292.5" font-family="Times New Roman" font-size="20">7</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="383.5" cy="362.5" rx="30" ry="30"/>
+	<text x="378.5" y="368.5" font-family="Times New Roman" font-size="20">9</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="336.5" cy="504.5" rx="30" ry="30"/>
+	<text x="331.5" y="510.5" font-family="Times New Roman" font-size="20">8</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 228.588,79.186 A 113.01,113.01 0 0 1 277.386,147.75"/>
+	<polygon fill="black" stroke-width="1" points="277.386,147.75 280.368,138.8 270.648,141.148"/>
+	<text x="265.5" y="101.5" font-family="Times New Roman" font-size="20">1</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 256.815,159.14 A 186.894,186.894 0 0 1 211.089,94.892"/>
+	<polygon fill="black" stroke-width="1" points="211.089,94.892 209.655,104.216 218.842,100.267"/>
+	<text x="214.5" y="149.5" font-family="Times New Roman" font-size="20">1</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 94.999,215.617 A 199.997,199.997 0 0 1 251.222,171.09"/>
+	<polygon fill="black" stroke-width="1" points="94.999,215.617 104.344,214.326 97.934,206.651"/>
+	<text x="155.5" y="167.5" font-family="Times New Roman" font-size="20">2</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 103.402,306.107 A 74.369,74.369 0 0 1 75.674,266.218"/>
+	<polygon fill="black" stroke-width="1" points="103.402,306.107 99.889,297.352 93.993,305.428"/>
+	<text x="70.5" y="308.5" font-family="Times New Roman" font-size="20">1</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 266.896,204.22 A 262.798,262.798 0 0 1 158.009,306.573"/>
+	<polygon fill="black" stroke-width="1" points="266.896,204.22 258.546,208.611 267.184,213.649"/>
+	<text x="225.5" y="284.5" font-family="Times New Roman" font-size="20">1</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 299.77,154.512 A 593.904,593.904 0 0 1 399.667,64.327"/>
+	<polygon fill="black" stroke-width="1" points="399.667,64.327 390.252,64.913 396.068,73.048"/>
+	<text x="332.5" y="97.5" font-family="Times New Roman" font-size="20">3</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 454.466,46.133 A 685.979,685.979 0 0 1 668.979,75.206"/>
+	<polygon fill="black" stroke-width="1" points="668.979,75.206 662.765,68.107 659.875,77.68"/>
+	<text x="561.5" y="42.5" font-family="Times New Roman" font-size="20">1</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 524.824,128.775 A 209.139,209.139 0 0 1 442.588,71.401"/>
+	<polygon fill="black" stroke-width="1" points="524.824,128.775 519.151,121.237 515.562,130.571"/>
+	<text x="465.5" y="126.5" font-family="Times New Roman" font-size="20">2</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 726.723,90.743 A 22.5,22.5 0 1 1 710.32,111.493"/>
+	<text x="756.5" y="146.5" font-family="Times New Roman" font-size="20">1</text>
+	<polygon fill="black" stroke-width="1" points="710.32,111.493 707.667,120.546 717.295,117.845"/>
+	<path stroke="black" stroke-width="1" fill="none" d="M 673.925,103.009 A 203.466,203.466 0 0 1 583.449,136.309"/>
+	<polygon fill="black" stroke-width="1" points="583.449,136.309 591.964,140.371 590.832,130.435"/>
+	<text x="634.5" y="146.5" font-family="Times New Roman" font-size="20">2</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 582.31,145.434 A 22.5,22.5 0 1 1 564.727,165.194"/>
+	<text x="609.5" y="202.5" font-family="Times New Roman" font-size="20">2</text>
+	<polygon fill="black" stroke-width="1" points="564.727,165.194 561.552,174.077 571.321,171.941"/>
+	<path stroke="black" stroke-width="1" fill="none" d="M 574.528,116.174 A 149.134,149.134 0 0 1 667.664,81.894"/>
+	<polygon fill="black" stroke-width="1" points="667.664,81.894 659.598,77.002 659.732,87.001"/>
+	<text x="603.5" y="81.5" font-family="Times New Roman" font-size="20">1</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 544.574,261.826 A 119.698,119.698 0 0 1 539.313,163.844"/>
+	<polygon fill="black" stroke-width="1" points="544.574,261.826 545.352,252.424 536.464,257.006"/>
+	<text x="515.5" y="219.5" font-family="Times New Roman" font-size="20">3</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 691.528,113.885 A 282.788,282.788 0 0 1 586.48,269.913"/>
+	<polygon fill="black" stroke-width="1" points="586.48,269.913 595.884,269.153 589.918,261.127"/>
+	<text x="658.5" y="220.5" font-family="Times New Roman" font-size="20">3</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 539.338,266.29 A 403.806,403.806 0 0 1 430.739,76.837"/>
+	<polygon fill="black" stroke-width="1" points="539.338,266.29 537.135,257.117 530.127,264.251"/>
+	<text x="455.5" y="197.5" font-family="Times New Roman" font-size="20">3</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 542.125,309.362 A 186.819,186.819 0 0 1 413.413,364.318"/>
+	<polygon fill="black" stroke-width="1" points="413.413,364.318 421.509,369.16 421.313,359.162"/>
+	<text x="487.5" y="370.5" font-family="Times New Roman" font-size="20">1</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 558.559,316.333 A 225.117,225.117 0 0 1 366.411,502.503"/>
+	<polygon fill="black" stroke-width="1" points="366.411,502.503 375.005,506.396 373.676,496.485"/>
+	<text x="498.5" y="461.5" font-family="Times New Roman" font-size="20">2</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 384.277,332.627 A 22.5,22.5 0 1 1 407.684,344.946"/>
+	<text x="419.5" y="293.5" font-family="Times New Roman" font-size="20">1</text>
+	<polygon fill="black" stroke-width="1" points="407.684,344.946 417.07,345.894 412.649,336.924"/>
+	<path stroke="black" stroke-width="1" fill="none" d="M 329.273,533.496 A 22.5,22.5 0 1 1 309.089,516.401"/>
+	<text x="277.5" y="576.5" font-family="Times New Roman" font-size="20">2</text>
+	<polygon fill="black" stroke-width="1" points="309.089,516.401 300.131,513.444 302.505,523.158"/>
+	<path stroke="black" stroke-width="1" fill="none" d="M 325.729,476.619 A 100.682,100.682 0 0 1 358.222,378.45"/>
+	<polygon fill="black" stroke-width="1" points="358.222,378.45 348.899,379.89 355.431,387.461"/>
+	<text x="310.5" y="422.5" font-family="Times New Roman" font-size="20">1</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 389.069,391.909 A 128.001,128.001 0 0 1 358.515,484.221"/>
+	<polygon fill="black" stroke-width="1" points="358.515,484.221 367.52,481.407 359.931,474.894"/>
+	<text x="390.5" y="454.5" font-family="Times New Roman" font-size="20">2</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 532.579,278.53 A 1345.163,1345.163 0 0 1 307.231,191.117"/>
+	<polygon fill="black" stroke-width="1" points="307.231,191.117 312.18,199.149 316.619,190.188"/>
+	<text x="403.5" y="261.5" font-family="Times New Roman" font-size="20">3</text>
+	<polygon stroke="black" stroke-width="1" points="368.907,336.289 295.093,203.711"/>
+	<polygon fill="black" stroke-width="1" points="295.093,203.711 294.616,213.133 303.353,208.269"/>
+	<text x="315.5" y="288.5" font-family="Times New Roman" font-size="20">3</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 324.739,476.904 A 654.658,654.658 0 0 1 278.592,207.437"/>
+	<polygon fill="black" stroke-width="1" points="278.592,207.437 273.27,215.226 283.262,215.634"/>
+	<text x="270.5" y="352.5" font-family="Times New Roman" font-size="20">3</text>
+</svg>
+

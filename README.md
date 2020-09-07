@@ -6,5 +6,8 @@ bla bla bla
 
 ## Tennivalók
 - [ ] Mappákba rakni a függőségeket és a forráskódot
+- [ ] Valami build rendszer
 - [ ] CI
 - [ ] EEPROM inicializáló program új alaplapokhoz
+- [ ] Relé kapcsolása
+- [ ] Kód kommentelése

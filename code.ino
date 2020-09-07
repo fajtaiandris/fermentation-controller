@@ -3,6 +3,7 @@
 #include "DallasTemperature.h"
 #include "ds3231.h"
 #include <Wire.h>
+#include <EEPROM.h>
 
 #define ONE_WIRE_BUS 4 
 
@@ -14,8 +15,10 @@ int numberLeds[] = {11,10,9,8};
 const int buttonPin1 = 2;
 ClickButton button1(buttonPin1, LOW, CLICKBTN_PULLUP);
 int state = 0;
-int minTemp = 3;
-int maxTemp = 10;
+const int minTempMemoryAddress = 3;
+const int maxTempMemoryAddress = 4;
+int minTemp;
+int maxTemp;
 int currentTemp = 13;
 OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
@@ -25,15 +28,16 @@ void setup()
   Serial.begin(9600);
   for(int i=0; i<sizeof(statusLeds) / sizeof(int);i++)
   {
-    pinMode(statusLeds[i], OUTPUT);    
+    pinMode(statusLeds[i], OUTPUT);
   }
   for(int i=0; i<sizeof(numberLeds) / sizeof(int);i++)
   {
-    pinMode(numberLeds[i], OUTPUT);    
+    pinMode(numberLeds[i], OUTPUT);
   }
+  minTemp = EEPROM.read(minTempMemoryAddress);
+  maxTemp = EEPROM.read(maxTempMemoryAddress);
   refreshTemperature();
   state0();
-
   Wire.begin();
   DS3231_init(DS3231_CONTROL_INTCN);
 
@@ -122,6 +126,8 @@ void loop()
       } else if(currentClicks == 2){
         state8();
       } else if(currentClicks == 3){
+        EEPROM.update(minTempMemoryAddress,minTemp);
+        EEPROM.update(maxTempMemoryAddress,maxTemp); 
         state0();
       }
     }

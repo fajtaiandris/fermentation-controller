@@ -35,3 +35,4 @@ A nyílakon lévő számok a gombnyomások számáit jelölik.
 - [ ] EEPROM inicializáló program új alaplapokhoz
 - [ ] Relé kapcsolása
 - [ ] Kód kommentelése
+- [ ] GCC toolchain Arduino-Cli helyett

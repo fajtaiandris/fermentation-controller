@@ -2,7 +2,7 @@
 
 # Fermentálás szabályzó
 
-bla bla bla
+[Kapcsolási rajz](./schematics.txt)
 
 ## Funkciók és állapotok
 

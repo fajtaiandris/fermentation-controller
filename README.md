@@ -28,8 +28,7 @@ A nyílakon lévő számok a gombnyomások számáit jelölik.
 
 ## Kapcsolási rajz
 
-<iframe src="./schematics.txt">
-</iframe>
+[Megtalálod itt.](./schematics.txt)
 
 ## Tennivalók
 - [ ] Mappákba rakni a függőségeket és a forráskódot

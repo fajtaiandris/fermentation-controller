@@ -2,8 +2,6 @@
 
 # Fermentálás szabályzó
 
-[Kapcsolási rajz](./schematics.txt)
-
 ## Funkciók és állapotok
 
 |Jelző szín  |Funkció                                       |Állapotok        |
@@ -27,6 +25,11 @@
 
 A nyílakon lévő számok a gombnyomások számáit jelölik.
 ![Állapotok](./automata.svg)
+
+## Kapcsolási rajz
+
+<iframe src="./schematics.txt">
+</iframe>
 
 ## Tennivalók
 - [ ] Mappákba rakni a függőségeket és a forráskódot

@@ -13,6 +13,8 @@ struct ts lastTime;
 int statusLeds[] = {7,6};
 int numberLeds[] = {11,10,9,8};
 const int buttonPin1 = 2;
+int coolingPin = 12;
+bool isCooling = false;
 ClickButton button1(buttonPin1, LOW, CLICKBTN_PULLUP);
 int state = 0;
 const int minTempMemoryAddress = 3;
@@ -33,6 +35,12 @@ void setup()
   for(int i=0; i<sizeof(numberLeds) / sizeof(int);i++)
   {
     pinMode(numberLeds[i], OUTPUT);
+  }
+  pinMode(coolingPin, OUTPUT);
+  if(isCooling){
+    digitalWrite(coolingPin, LOW);
+  } else {
+    digitalWrite(coolingPin, HIGH);
   }
   minTemp = EEPROM.read(minTempMemoryAddress);
   maxTemp = EEPROM.read(maxTempMemoryAddress);
@@ -56,7 +64,6 @@ void loop()
   }
   button1.Update();
 
-  // Save click codes in LEDfunction, as click codes are reset at next Update()
   if (button1.clicks != 0){
     int currentClicks = button1.clicks;
 
@@ -302,11 +309,8 @@ boolean timeToReadTemperature(){
   return (lastTimeInSeconds <= currentTimeInSeconds - 10);
 }
 
-void refreshTemperature(){
-   sensors.requestTemperatures();
-   currentTemp = sensors.getTempCByIndex(0);
+void printDate(){
    DS3231_get(&lastTime);
-   Serial.print("[UPDATE]  ");
    Serial.print(lastTime.mday);
    Serial.print("/");
    Serial.print(lastTime.mon);
@@ -317,11 +321,32 @@ void refreshTemperature(){
    Serial.print(":");
    Serial.print(lastTime.min);
    Serial.print(".");
-   Serial.print(lastTime.sec);
-   Serial.print(" - ");
-   Serial.print(currentTemp);
-   Serial.println("C");
+   Serial.println(lastTime.sec);
+}
 
+void refreshTemperature(){
+   sensors.requestTemperatures();
+   currentTemp = sensors.getTempCByIndex(0);
+   Serial.print("[TEMP: ");
+   Serial.print(currentTemp);
+   Serial.print("C] ");
+   printDate();
+
+   if(currentTemp >= maxTemp ){
+     if(!isCooling){
+       digitalWrite(coolingPin, LOW);
+       isCooling = true;
+       Serial.print("[COOLING: ON] ");
+       printDate();
+     }
+   } else if(currentTemp <= minTemp){
+     if(isCooling){
+       digitalWrite(coolingPin, HIGH);
+       isCooling = false;
+       Serial.print("[COOLING: OFF] ");
+       printDate();
+     }
+   }
 }
 
 void showTooBigNumber(){
